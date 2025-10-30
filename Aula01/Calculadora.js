@@ -3,7 +3,6 @@ const leia = require('readline-sync')
 
 // Variaveis
 let celsius, fahrenheit
-let nome = "Juan"
 
 // Entrada de dados
 celsius = leia.questionFloat("Insira a temperatura em Celsius: ")
@@ -13,7 +12,4 @@ fahrenheit = celsius * 1.8 + 32
 
 // Saida de dados
 console.log("A temperatura em fahrenheit é: " + fahrenheit)
-console.log("A temperatura em fahrenheit é: %f %s", nome, fahrenheit)
-
-
 
