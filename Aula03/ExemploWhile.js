@@ -1,6 +1,6 @@
 const leia = require("readline-sync");
 
-let continua = false;
+let continua = true;
 let numero1, numero2, resultado;
 
 while (continua) {
